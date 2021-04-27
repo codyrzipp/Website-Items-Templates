@@ -1,0 +1,19 @@
+body {
+    color: var(--primary-color);
+}
+:root {
+    --primary-color: #edf3fc; 
+    --secondary-color: #212121;
+}
+.dark-theme {
+    --primary-color: #212121; 
+    --secondary-color: #ffffff;
+}
+#icon {
+    width: 30px;
+    cursor: pointer;
+}
+nav ul {
+    flex: 1;
+    text-align: right;
+}
